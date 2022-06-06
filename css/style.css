@@ -6,14 +6,13 @@
 
 
 .headerLogo img {
-    width:210px;
-    margin: 9px 0px 50px 35px;
-    
+   max-width:210px;
+    margin: 50px;
 }
 
 .conteudo {
     display:flex;
-        
+    color:var(--white)
 }
 
 .conteudo .texto {
@@ -68,5 +67,5 @@
 }
 .footer .redes a:hover {
     border-color:var(--hover);
-    color:var(--hover);
+    color:var(--hover)
 }

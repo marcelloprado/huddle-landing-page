@@ -4,11 +4,11 @@
     border:none;
     box-sizing: border-box;
     background-repeat:no-repeat;
-    color:#FFF;
+    
 }
 a {
     text-decoration:none;
-    
+    color:#FFF;
 }
 ul {
     list-style:none;
