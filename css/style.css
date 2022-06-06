@@ -1,71 +1,72 @@
 .container {
     background-image: url(/src/images/bg-desktop.svg);
-    background-color:var(--primary);
-    max-height:1440px;
+    background-color: var(--primary);
+    max-height: 1440px;
 }
 
 
 .headerLogo img {
-   max-width:210px;
+    max-width: 210px;
     margin: 50px;
 }
 
 .conteudo {
-    display:flex;
-    color:var(--white)
+    display: flex;
+    color: var(--white)
 }
 
 .conteudo .texto {
     font-family: 'Poppins', sans-serif;
-    margin-top:80px;
+    margin-top: 80px;
 }
+
 .conteudo .texto h1 {
     font-size: 40px;
     max-width: 500px;
-    margin:0 auto;
+    margin: 0 auto;
     font-weight: 600;
-   
 }
+
 .conteudo .texto p {
-    padding:20px;
-    margin-bottom:20px;
+    padding: 20px;
+    margin-bottom: 20px;
 }
-.conteudo .texto .botao  {
+
+.conteudo .texto .botao {
     border-radius: 50px;
-    padding:15px 60px;
-    color:var(--primary);
-    font-size:16px;
-    margin:-20px; 
-    margin-left:25px;
-    cursor:pointer;
+    padding: 15px 60px;
+    color: var(--primary);
+    font-size: 16px;
+    margin: -20px;
+    margin-left: 25px;
+    cursor: pointer;
 }
+
 .conteudo .texto .botao:hover {
-    background-color:var(--hover);
-    color:var(--white);
+    background-color: var(--hover);
+    color: var(--white);
 }
 
-.footer  {
-    display:flex;
-    justify-content:flex-end;
-    height:70px;
-    
-    
+.footer {
+    display: flex;
+    justify-content: flex-end;
+    height: 70px;
 }
 
-.redes {
-    font-size:22px;
-    margin-right:80px;
-    
-    
+.footer .redes {
+    font-size: 22px;
+    margin-right: 80px;
 }
+
 .footer .redes a {
     font-size: 18px;
     padding: 8px;
     border: 1px solid var(--white);
-    border-radius:50%;
-    margin:10px;
+    border-radius: 50%;
+    margin: 10px;
 }
+
 .footer .redes a:hover {
-    border-color:var(--hover);
-    color:var(--hover)
+    border-color: var(--hover);
+    color: var(--hover)
 }

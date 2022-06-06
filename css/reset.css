@@ -1,16 +1,13 @@
 * {
-    margin:0;
-    padding:0;
-    border:none;
+    margin: 0;
+    padding: 0;
+    border: none;
     box-sizing: border-box;
-    background-repeat:no-repeat;
-    
-}
-a {
-    text-decoration:none;
-    color:#FFF;
-}
-ul {
-    list-style:none;
+    background-repeat: no-repeat;
+
 }
 
+a {
+    text-decoration: none;
+    color: #FFF;
+}
